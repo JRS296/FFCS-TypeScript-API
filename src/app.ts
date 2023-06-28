@@ -30,7 +30,8 @@ app.use(
   }
 );
 
-const PORT = process.env.PORT;
+// const PORT = process.env.PORT;
+const PORT = 3000;
 
 connection
   .sync()

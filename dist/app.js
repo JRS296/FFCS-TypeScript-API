@@ -21,7 +21,8 @@ app.use("/", ffcs_student_1.default);
 app.use((err, req, res, next) => {
     res.status(500).json({ message: err.message });
 });
-const PORT = process.env.PORT;
+// const PORT = process.env.PORT;
+const PORT = 3000;
 config_1.default
     .sync()
     .then(() => {

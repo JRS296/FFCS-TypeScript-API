@@ -1,0 +1,13 @@
+FROM node:18.14.2
+
+WORKDIR /FFCSAPI
+
+COPY . /FFCSAPI
+
+RUN npm install
+
+EXPOSE 3000
+
+ENV PORT 3000
+
+CMD [ "npm", "start" ]

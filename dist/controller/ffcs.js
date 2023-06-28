@@ -369,7 +369,7 @@ const registerCourse = (req, res, next) => __awaiter(void 0, void 0, void 0, fun
     for (let i = 0; i < unique.length; i++) {
         const isSlotOccupied = yield registeredCourses_models_1.RegCourses.findAll({ where: { slotId: unique[i] } });
         if (isSlotOccupied.length > 0)
-            return res.status(401).json({ error: 'Slot Occupied' });
+            return res.status(400).json({ error: 'Slot Occupied' });
         const addedCourse = yield registeredCourses_models_1.RegCourses.create({ studentId: bt, courseId: course_id, teacherId: faculty_id, slotId: unique[i] });
     }
     let regCourses = yield registeredCourses_models_1.RegCourses.findAll({ where: { studentId: bt } });
