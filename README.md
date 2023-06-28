@@ -102,7 +102,12 @@ Built with the following tech stack:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps:
+We recommend using our Docker image to build out the API's backend. You can do so via building out the image from the given link:
+```sh
+   https://hub.docker.com/repository/docker/jrs296/ffcs_api_image/general
+   ```
+
+To get a local copy up and running via GitHub, follow these simple example steps:
 
 ### Prerequisites
 
