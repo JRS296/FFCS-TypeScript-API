@@ -102,7 +102,12 @@ Built with the following tech stack:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps:
+We recommend using our Docker image to build out the API's backend. You can do so via building out the image from the given link:
+```sh
+   https://hub.docker.com/repository/docker/jrs296/ffcs_api_image/general
+   ```
+
+To get a local copy up and running via GitHub, follow these simple example steps:
 
 ### Prerequisites
 
@@ -118,7 +123,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/dyte-submissions/vit-hiring-2023-phase-1-JRS296.git
+   https://github.com/JRS296/FFCS-TypeScript-API.git
    ```
 2. Install NPM packages
    ```sh
