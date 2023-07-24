@@ -51,7 +51,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#er-diagram">ER Diagram</a></li>
+    <li><a href="#class-diagram">Class Diagram</a></li>
     <li><a href="#testing-results">Testing Results</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -152,7 +152,7 @@ Here is an example from the config.ts file that comes by default with this repos
 
 
 <!-- ER Diagram -->
-## ER Diagram
+## Class Diagram
 
 ![image](https://user-images.githubusercontent.com/70965472/222976404-5775b5a2-08ea-4ccc-9b21-f792d034a2b6.png)
 
