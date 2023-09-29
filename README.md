@@ -29,6 +29,7 @@
     <strong>Solution for Problem Statements for VIT (2023 Batch) - Dyte</strong>
     <br />
     <br />
+    <img src="https://img.shields.io/docker/v/jrs296/ffcs_api_image/latest?logo=docker">
   </p>
 </div>
 
